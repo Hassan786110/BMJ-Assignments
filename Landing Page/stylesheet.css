@@ -1,0 +1,138 @@
+*{
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 5px 16px;
+}
+#navbar{
+    display: flex;
+}
+#logo{
+    width: 6.5%;
+    height: 5%;
+    padding-left: 3%;
+}
+.heading{
+    color: black;
+    text-transform: capitalize;
+    text-decoration: none;
+    padding-left: 0.01%;
+    font-size: 80%;
+    padding-top: 0.2%;
+}
+.heading:hover{
+    text-decoration: underline black 2px;
+}
+#drop{
+    color: black;
+    text-transform: capitalize;
+    padding-left: 38.6%;
+    font-size: 90%;
+    padding-top: 0.3%;
+}
+#drop:hover{
+    text-decoration: underline black 2px;
+    cursor: pointer;
+}
+.search{
+    font-size: 85%;
+    padding-top: 0.2%;
+    padding-left: 0.9%;
+    color: black;
+    text-transform: capitalize;
+}
+.search:hover{
+    text-decoration: underline black 2px;
+    cursor: pointer;
+}
+#sign{
+    font-size: 85%;
+    padding-top: 0.2%;
+    padding-left: 0.9%;
+    color: black;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+#image1{
+    position: absolute;
+    z-index: -1;
+    width: 89.5%;
+} 
+#img-heading{
+    font-size: 220%;
+    font-weight: 600;
+    padding-left: 6.8%;
+    padding-top: 11.7%;
+}
+#img-txt{
+    padding-left: 6.8%;
+    font-size: 93%;
+    padding-top: 0.4%;
+}
+#btn{
+    padding-top: 0.8%;
+    padding-left: 6%;
+    padding-bottom: 10.7%;
+}
+button{
+    padding: 0.5% 1%;
+    color: white;
+    background-color: black;
+    font-size: 98%;
+    font-weight: 500;
+}
+button:hover{
+    text-decoration: underline;
+}
+#hello{
+    display: inline-block;
+    padding-top: 3%;
+}
+.contain{
+    display: inline-block;
+    margin-left: -3%;
+}
+#div1{
+    font-size: 130%;
+    font-weight: 500;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+#div2{
+    word-spacing: -0.1%;
+    font-size: 96.6%;
+    padding-left: 4%;
+}
+#div3{
+    font-size: 130%;
+    font-weight: 500;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+#div4{
+    word-spacing: -0.1%;
+    font-size: 96.6%;
+    padding-left: 4%;
+}
+#div5{
+    font-size: 130%;
+    font-weight: 500;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+#div6{
+    word-spacing: -0.1%;
+    font-size: 96.6%;
+    padding-left: 4%;
+}
+#div7{
+    font-size: 130%;
+    font-weight: 500;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+#div8{
+    word-spacing: -0.1%;
+    font-size: 96.6%;
+    padding-left: 4%;
+}

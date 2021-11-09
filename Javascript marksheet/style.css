@@ -1,0 +1,42 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+#sub-container{
+    text-align: center;
+}
+h1{
+    font-size: 2vw;
+}
+#small-container{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+h2{
+    font-size: 1.2vw;
+    text-transform: uppercase;
+}
+.txt{
+    font-size: 1.2vw;
+}
+table{
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+th{
+    padding: 20px;
+    font-size: 1.2vw;
+}
+td{
+    padding: 20px;
+    font-size: 1.2vw;
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#header{
+    background-color: #f7f8f8;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+}
+#main-div{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.drop-dwn{
+    background-color: #ffffff !important;
+    width: 272px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    border: 2px solid #002f34;
+    border-radius: 5px;
+}
+.drop-dwn > button{
+    width: 272px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.drop-dwn > button:focus{
+    box-shadow: none;
+}
+.drop-dwn > button > span > i{
+    font-size: 20px;
+}
+.drop-dwn > button > span > a{
+    margin-left: 10px;
+    font-size: 1vw;
+    color: #002f34;
+    font-family: 'Roboto', sans-serif;
+}
+#sub-div{
+    display: flex;
+}
+#sub-div > input{
+    width: 428.05px;
+    height: 48px;
+    padding-left: 12px;
+    border-radius: 5px 0px 0px 5px;
+}
+#sub-div > input::placeholder{
+    font-family: 'Roboto' , sans-serif;
+}
+#search-btn{
+    width: 48px;
+    height: 48px;
+    background-color: #002f34;
+    color: #ffffff;
+    border-radius: 0px 5px 5px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search-btn > i{
+    font-size: 20px;
+}
+#txt{
+    font-size: 15.96px;
+    color: #002f34;
+    text-decoration: 2px underline #002f34;
+}
+#sell-btn{
+    background-image: url(./assets/images/sell-button.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 104px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sell-btn > img{
+    margin-right: 4px;
+    height: 16px;
+    width: 16px;
+}
+#sell-btn > a{
+    font-size: 14px;
+    font-family: 'Roboto' , sans-serif;
+    font-weight: bold;
+}

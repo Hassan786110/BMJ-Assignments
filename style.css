@@ -1,0 +1,598 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F6F7FF;
+    font-family: 'Poppins', sans-serif;
+}
+::selection{
+    background-color: #FF5959;
+    color: white;
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+nav{
+    border-radius: 20px;
+    background-color: #4A63E7;
+    letter-spacing: 0.5px;
+    box-shadow: 0px 0px 10px 5px #D9DAE1;
+}
+.link:hover{
+    transform: translateX(10px);
+    transition: all 0.5s;
+}
+.main-div{
+    border-radius: 20px;
+    background-color: #4A63E7;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    color: #ffffff;
+    padding: 20px;
+    padding-bottom: 67px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 5px #D9DAE1;
+}
+.main-div > div > h1{
+    font-size: 3vw;
+}
+.main-div > div > h1 > a{
+    color: #FF5959 !important;
+    font-size: 5vw;
+    margin-left: 5px;
+}
+.main-div > div > p{
+    font-size: 1.8vw;
+}
+.main-div > div > button{
+    border-radius: 30px;
+    color: #ffffff;
+    padding: 10px 20px;
+    margin-right: 10px;
+}
+.main-div > div > button:hover{
+    transform: translateY(-10px);
+    transition: all 1s;
+}
+.fa-th-large{
+    margin-right: 10px;
+}
+.fa-envelope{
+    margin-right: 10px;
+}
+.button1{
+    background-color: #FF5959;
+    border: none;
+    font-size: 1.3vw;
+}
+.button1:hover{
+    background-color: #4A63E7;
+    border: 1px solid #ffffff;
+}
+.button2{
+    background-color: #4A63E7;
+    border: 1px solid #ffffff;
+    font-size: 1.3vw;
+}
+.button2:hover{
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+}
+#main-div2{
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px #D9DAE1;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    padding: 50px;
+}
+#main-div2 > h1{
+    font-size: 1.8vw;
+}
+.underline{
+    background-color: #FF5959;
+    width: 40px;
+    margin-top: 10px;
+    border-radius: 100px;
+    height: 5px;
+}
+.sub-div{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.sub-div > div > img{
+    width: 300px;
+    height: 300px;
+}
+#about-section{
+    margin-left: 50px;
+}
+#about-section > h2{
+    font-size: 2vw;
+    margin-bottom: 15px;
+}
+#about-section > p{
+    color: #969696;
+    font-size: 1vw;
+}
+#sub-section{
+    display: flex;
+    justify-content: space-between;
+    color: #969696;
+    margin-top: 20px;
+}
+#txt1 >h6{
+    font-weight: bold;
+    font-size: 1vw;
+}
+#txt2 >h6{
+    font-weight: bold;
+    font-size: 1vw;
+}
+.heading{
+    margin-top: 10px;
+}
+#txt1 > h6 >a{
+    color: #464646;
+} 
+#txt2 > h6 >a{
+    color: #464646;
+} 
+#main-div3{
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px #D9DAE1;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    padding: 50px;
+}
+#main-div3 > h1{
+    font-size: 2vw;
+}
+#main-div4{
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px #D9DAE1;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    padding: 50px;
+}
+#main-div4 > h1{
+    font-size: 2vw;
+}
+.portfolio{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.portfolio > a{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: #ffffff;
+    box-shadow: 0px 0px 10px 5px #D9DAE1;
+    padding: 20px 0px;
+    border-radius: 20px;
+    background-color: #FF5959;
+    text-align: center;
+    margin-top: 30px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+.portfolio > a:hover{
+    transform: translateY(-10px);
+    transition: all 0.5s;
+    background-color: #4A63E7;
+}
+#main-div5{
+    border-radius: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px #D9DAE1;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    padding: 50px;
+}
+#main-div5 > h1{
+    font-size: 2vw;
+}
+.contact-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+form{
+    width: 60%;
+}
+input{
+    border-radius: 20px !important;
+}
+.field{
+    height: 42.5px !important;
+    padding-left: 30px !important;
+}
+.field:focus{
+    border: 1px solid #FF5959 !important;
+    box-shadow: none !important;
+}
+textarea{
+    padding-top: 10px !important;
+    padding-left: 30px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+}
+textarea:focus{
+    border: 1px solid #FF5959 !important;
+}
+.submit{
+    width: 35%;
+    height: 42.5px !important;
+    color: #ffffff;
+    background-color: #FF5959;
+    box-shadow: none !important;
+}
+.submit:hover{
+    transition: all 0.5s;
+    transform: translateY(-10px);
+    background-color: #4A63E7;
+}
+@media (max-width: 1400px){
+    .main-div{
+        padding: 30px;
+        padding-bottom: 40px;
+    }
+    .main-div > div > h1{
+        font-size: 3vw;
+        line-height: 50px;
+    }
+    .main-div > div > h1 > a{
+        font-size: 5vw;
+    }
+    
+    .main-div > div > p{
+        font-size: 2vw;
+    }
+    .button1{
+        font-size: 1.5vw;
+    }
+    .button2{
+        font-size: 1.5vw;
+    }
+    #main-div2 > h1{
+        font-size: 2vw;
+    }
+    .sub-div > div > img{
+        width: 250px;
+        height: 250px;
+    }
+    #about-section > h2{
+        font-size: 2vw;
+        margin-bottom: 15px;
+    }
+    #about-section > p{
+        color: #969696;
+        font-size: 1.3vw;
+    }
+    #txt1 >h6{
+        font-size: 1.2vw;
+    }
+    #txt2 >h6{
+        font-size: 1.2vw;
+        margin-right: 50px;
+    }
+    .portfolio > a{
+        font-size: 1.3vw;
+    }
+    form > input::placeholder{
+        font-size: 1.3vw;
+    }
+    form > textarea::placeholder{
+        font-size: 1.3vw;
+    }
+    .submit{
+        font-size: 1.3vw;
+    }
+}
+@media (max-width: 1200px){
+    .main-div{
+        padding: 30px;
+    }
+    .main-div > div > h1{
+        font-size: 7vw;
+        line-height: 65px;
+    }
+    .main-div > div > h1 > a{
+        font-size: 10vw;
+    }
+    .main-div > div > p{
+        font-size: 4vw;
+    }
+    .button1{
+        font-size: 3vw;
+    }
+    .button2{
+        font-size: 3vw;
+    }
+    #main-div2{
+        padding: 35px;
+    }
+    .sub-div{
+        margin-top: 30px;
+    }
+    #main-div2 > h1{
+        font-size: 3vw;
+    }
+    .sub-div > div > img{
+        width: 200px;
+        height: 200px;
+    }
+    #about-section{
+        margin-left: 30px;
+    }
+    #about-section > h2{
+        font-size: 2.8vw;
+        margin-bottom: 15px;
+    }
+    #about-section > p{
+        color: #969696;
+        font-size: 1.8vw;
+    }
+    #txt1 >h6{
+        font-size: 1.6vw;
+    }
+    #txt2 >h6{
+        font-size: 1.6vw;
+        margin-right: 2px;
+    }
+    #main-div3{
+        padding: 35px;
+    }
+    #main-div3 > h1{
+        font-size: 3vw;
+    }
+    #main-div4{
+        padding: 35px;
+    }
+    #main-div4 > h1{
+        font-size: 3vw;
+    }
+    .portfolio{
+        margin-top: 25px;
+    }
+    .portfolio > a{
+        font-size: 1.7vw;
+    }
+    #main-div5{
+        padding: 35px;
+    }
+    #main-div5 > h1{
+        font-size: 3vw;
+    }
+    .contact-form{
+        margin-top: 60px;
+    }
+    form > input::placeholder{
+        font-size: 1.7vw;
+    }
+    form > textarea::placeholder{
+        font-size: 1.7vw;
+    }
+    .submit{
+        font-size: 1.7vw;
+    }
+}
+@media (max-width: 900px){
+    .main-div{
+        padding: 30px;
+    }
+    .main-div > div > h1{
+        font-size: 7vw;
+        line-height: 50px;
+    }
+    .main-div > div > h1 > a{
+        font-size: 10vw;
+    }
+    .main-div > div > p{
+        font-size: 4vw;
+    }
+    .button1{
+        font-size: 3vw;
+    }
+    .button2{
+        font-size: 3vw;
+    }
+    #main-div2{
+        padding: 35px;
+    }
+    .sub-div{
+        margin-top: 30px;
+    }
+    #main-div2 > h1{
+        font-size: 3.5vw;
+    }
+    .sub-div > div > img{
+        width: 200px;
+        height: 200px;
+    }
+    #about-section{
+        margin-left: 30px;
+    }
+    #about-section > h2{
+        font-size: 2.5vw;
+        margin-bottom: 15px;
+    }
+    #about-section > p{
+        color: #969696;
+        font-size: 1.5vw;
+    }
+    #txt1 >h6{
+        font-size: 1.5vw;
+    }
+    #txt2 >h6{
+        font-size: 1.31vw;
+        margin-right: 2px;
+    }
+    #main-div3{
+        padding: 35px;
+    }
+    #main-div3 > h1{
+        font-size: 3.5vw;
+    }
+    #main-div4{
+        padding: 35px;
+    }
+    #main-div4 > h1{
+        font-size: 3.5vw;
+    }
+    .portfolio{
+        margin-top: 25px;
+    }
+    .portfolio > a{
+        font-size: 1.7vw;
+    }
+    #main-div5{
+        padding: 35px;
+    }
+    #main-div5 > h1{
+        font-size: 3.5vw;
+    }
+    .contact-form{
+        margin-top: 50px;
+    }
+    form > input::placeholder{
+        font-size: 1.7vw;
+    }
+    form > textarea::placeholder{
+        font-size: 1.7vw;
+    }
+    .submit{
+        width: 45%;
+        font-size: 1.7vw;
+    }
+}
+@media (max-width: 576px){
+    .main-div{
+        padding: 20px;
+    }
+    .main-div > div > h1{
+        font-size: 10vw;
+        line-height: 40px;
+    }
+    .main-div > div > h1 > a{
+        font-size: 12vw;
+    }
+    .main-div > div > p{
+        font-size: 5vw;
+    }
+    .main-div > div > button{
+        padding: 10px 15px;
+        margin-right: 5px;
+    }
+    .button1{
+        font-size: 4vw;
+    }
+    .button2{
+        font-size: 4vw;
+    }
+    #main-div2{
+        padding: 30px;
+    }
+    .sub-div{
+        display: inline;
+    }
+    #main-div2 > h1{
+        font-size: 5.5vw;
+    }
+    .sub-div > div > img{
+        width: 180px;
+        height: 180px;
+        margin-top: 10px;
+    }
+    #about-section{
+        margin-left: 0px;
+    }
+    #about-section > h2{
+        font-size: 5vw;
+        margin-bottom: 12px;
+    }
+    #about-section > p{
+        color: #969696;
+        font-size: 3.5vw;
+    }
+    #sub-section{
+        display: inline;
+        margin-top: 20px;
+    }
+    #txt1 >h6{
+        font-size: 3.2vw;
+    }
+    #txt2 >h6{
+        font-size: 3.2vw;
+    }
+    .heading{
+        margin-top: 0px;
+    }
+    #main-div3{
+        padding: 30px;
+    }
+    #main-div3 > h1{
+        font-size: 5.5vw;
+    }
+    #main-div4{
+        padding: 30px;
+    }
+    #main-div4 > h1{
+        font-size: 5.5vw;
+    }
+    .portfolio{
+        margin-top: 40px;
+        margin-bottom: 15px;
+    }
+    .portfolio > a{
+        font-size: 3.5vw;
+        margin-top: 10px;
+        padding: 10px auto;
+        margin-left: 45px;
+    }
+    #main-div5{
+        padding: 30px;
+    }
+    #main-div5 > h1{
+        font-size: 5.5vw;
+    }
+    .contact-form{
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+    form{
+        width: 85%;
+    }
+    form > input::placeholder{
+        font-size: 3.5vw;
+    }
+    .field{
+        height: 0px !important;
+        padding: 20px 0px;
+        padding-left: 20px !important;
+    }
+    form > textarea::placeholder{
+        font-size: 3.5vw;
+    }
+    textarea{
+        padding-top: 10px !important;
+        padding-left: 20px !important;
+        height: 30% !important;
+    }
+    .submit{
+        width: 100%;
+        font-size: 3.5vw;
+        height: 35px !important;
+    }
+}

@@ -1,0 +1,18 @@
+var username;
+var myname = "Muhammmad Hassan";
+var message;
+message = "Hello World";
+alert("message");
+var yourname = prompt("What is Your Name");
+var age = prompt("What is your age");
+var hobby = prompt("What is your Hobby");
+alert(yourname);
+alert(age);
+alert(hobby);
+var info = yourname + "\n" + age + "\n" + hobby;
+alert(info);
+var email = "muhammmadhasssan110786@gmail.com";
+alert("My email address is :" + " " + email);
+var book = "A Smarter Way to Learn JavaScript";
+alert(book);
+document.write("Yah!I can write HTML content through JavaScript");

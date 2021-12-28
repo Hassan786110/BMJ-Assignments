@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+    <title>Todo List</title>
+</head>
+
+<body onload="set()">
+    <div id="main-div">
+        <h1>Todo Application</h1>
+        <input type="text" id="field">
+        <div id="container1">
+            <button class="btn" onclick="add()">Add Text</button>
+            <button class="btn" onclick="del()">Delete All</button>
+        </div>
+        <div id="container2">
+            <ul id="list"></ul>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+
+</html>

@@ -1,0 +1,825 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#main-div2{
+    background-image: url(./assets/images/login1.jpg);
+    height: 100vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login{
+    width: 22% !important;
+    height: 60vh !important;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+#login > h2{
+    margin-top: 35px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+#user_2{
+    margin-top: 50px;
+    margin-bottom: 12.5px;
+}
+#login > input{
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+#login > input:focus{
+    border: none;
+    outline: none;
+}
+#show{
+    margin-top: 10px;
+    margin-left: 88px;
+}
+#login > button{
+    margin-top: 45px;
+    padding: 10px 20px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    letter-spacing: 0.5px;
+    border-radius: 50px;
+    border: none;
+}
+#login > button:hover {
+    cursor: pointer;
+}
+#login > a{
+    margin-top: 15px;
+    color: white;
+    text-decoration: none;
+}
+#login > a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+#main-div{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+#container1{
+    width: 7%;
+    height: 100vh;
+    background-color: #03001F;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#container1 > div{
+    margin: 50px 0px 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+#admin{
+    cursor: default;
+}
+.fa-user-alt{
+    color: #FF1262;
+    font-size: 30px;
+}
+.fa-home , .fa-bags-shopping , .fa-cog{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+h5{
+    font-size: 15px;
+    font-weight: 500;
+}
+#container2{
+    background-color: #F2F6F9;
+    width: 93%;
+    height: 100vh;
+    padding: 20px;
+}
+#container2 > h2{
+    color: #02194E;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+#sub-container1{
+    display: flex;
+    justify-content: space-between;
+}
+.order{
+    height: 70vh;
+    width: 32%;
+    border-radius: 10px;
+    border: 2px solid #02194E;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    text-transform: uppercase;
+}
+.order > h3{
+    font-size: 22.5px;
+    color: #02194E;
+    margin-bottom: 40px;
+}
+.order > h1{
+    color: #FF1262;
+    font-size: 200px;
+    font-weight: 100;
+}
+#sub-container2{
+    color: #03001F;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: auto;
+}
+#generate{
+    width: 100%;
+    height: 7vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+    color: #02194E;
+    justify-content: space-between;
+}
+.d{
+    margin: 20px 0px 10px 10px;
+}
+#small{
+    border: 1px solid #02194E;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 7px;
+}
+.btn{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #FF1262;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 13px;
+    border: none;
+    text-transform: capitalize;
+}
+#small-div{
+    color: rgb(0, 218, 0);
+    font-size: 16px;
+}
+#icon{
+    font-size: 16px;
+    margin-right: 5px;
+    color: rgb(0, 218, 0);
+}
+#sub-container3{
+    width: 100%;
+    height: 70vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    color: #02194E;
+}
+#contain{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: 20px 0px 0px 20px;
+}
+#pass{
+    display: flex;
+    flex-direction: column;
+}
+#pass > h2{
+    margin: 0px 0px 40px;
+}
+#last_pass{
+    font-size: 16px;
+    padding: 10px 10px;
+    border: 1px solid #02194E;
+    border-radius: 5px;
+}
+#new_pass{
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px 10px;
+    border: 1px solid #02194E;
+}
+#new_pass:focus{
+    outline: none !important;
+    border: 1px solid #FF1262 !important;
+    box-shadow: none !important;
+}
+#last_pass:focus{
+    outline: none !important;
+    border: 1px solid #FF1262 !important;
+    box-shadow: none !important;
+}
+#reset_btn{
+    width: 35%;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    background-color: #FF1262;
+
+}
+.sub-contain2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+#heading2{
+    margin-bottom: 40px;
+}
+#mail{
+    margin-left: 5px;
+}
+#phone{
+    margin-left: 5px;
+}
+#mail_btn{
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    background-color: #FF1262;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#phone_btn{
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    background-color: #FF1262;
+}
+#delete{
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 20px 0px;
+    color: white;
+    border: none;
+    width: 30%;
+    font-size: 18px;
+    background-color: #FF1262;
+    cursor: pointer;
+}
+#qw{
+    align-self: center;
+}
+@media (max-width: 1024px){
+    #login > h2{
+        margin-top: 50px;
+        font-size: 50px;
+    }
+    #user_2{
+        margin-top: 70px;
+        margin-bottom: 15px;
+    }
+    #login > input{
+        padding: 5px 10px;
+        font-size: 25px;
+    }
+    #show{
+        margin-top: 13px;
+        margin-left: 150px;
+        font-size: 20px;
+    }
+    #login > button{
+        margin-top: 65px;
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+    #login > a{
+        margin-top: 15px;
+        font-size: 20px;
+    }
+    #container1{
+        width: 13%;
+    }
+    #container1 > div{
+        margin: 100px 0px 10px;
+    }
+    .fa-user-alt{
+        font-size: 50px;
+    }
+    .fa-home , .fa-bags-shopping , .fa-cog{
+        font-size: 50px;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: 22px;
+    }
+    #container2{
+        width: 87%;
+        padding: 30px;
+    }
+    #container2 > h2{
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+    .order{
+        height: 37vh;
+        width: 32%;
+        padding: 30px;
+    }
+    .order > h3{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    #left{
+        margin-top: 42.5px;
+    }
+    #generate{
+        height: 4vh;
+    }
+    .btn{
+        font-size: 15px;
+    }
+}
+@media (max-width: 1024px){
+    #login{
+        width: 40% !important;
+        height: 40vh !important;
+    }
+}
+@media (max-width: 768px){
+    #login{
+        width: 54% !important;
+        height: 53.5vh !important;
+    }
+    #container1{
+        width: 13%;
+    }
+    #container1 > div{
+        margin: 80px 0px 10px;
+    }
+    .fa-user-alt{
+        font-size: 40px;
+    }
+    .fa-home , .fa-bags-shopping , .fa-cog{
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    #container2{
+        width: 87%;
+        padding: 20px;
+    }
+    #container2 > h2{
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+    .order{
+        height: 40vh;
+        width: 32%;
+        padding: 30px;
+    }
+    .order > h1{
+        font-size: 170px;
+    }
+    .order > h3{
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    #left{
+        margin-top: 35px;
+    }
+    #generate{
+        height: 4vh;
+    }
+    .btn{
+        font-size: 13px;
+    }   
+    #contain{
+        width: 100%;
+        margin: 0px 0px 0px 0px;
+    }
+    #contain2{
+        margin-left: 40px;
+    }
+}
+@media (max-width: 576px){
+    #container1{
+        width: 18%;
+        height: 100vh;
+        position: fixed;
+    }
+    #container1 > div{
+        margin: 50px 0px 10px;
+    }
+    .fa-user-alt{
+        font-size: 30px;
+    }
+    .fa-home , .fa-bags-shopping , .fa-cog{
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    #container2{
+        width: 82%;
+        height: auto;
+        padding: 15px;
+        position: absolute;
+        left: 18%;
+    }
+    #container2 > h2{
+        margin-bottom: 40px;
+    }
+    #sub-container1{
+        display: flex;
+        flex-direction: column;
+    }
+    .order{
+        height: 48vh;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .order > h3{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    #left{
+        margin-top: 0px;
+    }
+    .order > h1{
+        font-size: 150px;
+    }
+    #sub-container2{
+        width: 100%;
+        padding: 15px 15px 0px 15px;
+        overflow-y: auto;
+    }
+    #generate{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0px;
+    }
+    #generate > h3{
+        margin-bottom: 10px;
+    }
+    .d{
+        margin: 15px 10px 15px 10px;
+        overflow-wrap: break-word;
+    }
+    .d > h3{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    #small{
+        margin-bottom: 15px;
+    }
+    .btn{
+        padding: 5px 10px;
+        margin: 15px 1px 1px 1px;
+        font-size: 13px;
+    }
+    #small-div{
+        font-size: 15px;
+    }
+    #icon{
+        font-size: 14px;
+        margin-right: 3px;
+    }
+    #sub-container3{
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    #contain{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: 0px 0px 0px 0px;
+    }
+    #pass{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+    #pass > h2{
+        margin: 0px 0px 32.5px;
+    }
+    #new_pass{
+        margin-top: 10px;
+    }
+    #reset_btn{
+        width: 40%;
+        padding: 10px 10px;
+        margin-top: 30px;
+    }
+    #contain2{
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+    #heading2{
+        margin-bottom: 32.5px;
+        font-size: 22.5px;
+    }
+    #mail{
+        margin-left: 0px;
+    }
+    #k{
+        width: 100%;
+        overflow-wrap: break-word;
+    }
+    #phone{
+        margin-left: 0px;
+    }
+    #mail_btn{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+    #phone_btn{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    #delete{
+        margin-top: 20px;
+        padding: 20px 0px;
+        width: 100%;
+        font-size: 18px;
+    }
+}
+@media (max-width: 540px){
+    #login{
+        width: 56% !important;
+    }
+    #sub-container2{
+        height: 83.9vh !important;
+    }
+}
+@media (max-width: 414px){
+    #login{
+        width: 74% !important;
+        height: 55vh !important;
+    }
+}
+@media (max-height: 823px){
+    #login{
+        height: 50vh !important;
+    }
+    #login > h2{
+        margin-top: 35px;
+        font-size: 35px;
+    }
+    #user_2{
+        margin-top: 50px;
+        margin-bottom: 12.5px;
+    }
+    #login > input{
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+    #show{
+        margin-top: 10px;
+        margin-left: 88px;
+        font-size: 16px;
+    }
+    #login > button{
+        margin-top: 45px;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    #login > a{
+        margin-top: 15px;
+        font-size: 16px;
+    }
+    .order > h3{
+        margin-bottom: 45px;
+    }
+}
+@media (max-width: 375px){
+    #login{
+        width: 80% !important;
+    }
+    #sub-container2{
+        height: 82.5vh !important;
+    }
+}
+@media (max-height: 768px){
+    #login{
+        height: 52.5vh !important;
+    }
+}
+@media (max-height: 736px){
+    #login{
+        height: 55vh !important;
+    }
+    .order > h3{
+        margin-bottom: 30px;
+    }
+}
+@media (max-height: 731px){
+    #login{
+        height: 55vh !important;
+    }
+    .order > h3{
+        margin-bottom: 35px;
+    }
+}
+@media (max-height: 720px){
+    #login{
+        height: 56vh !important;
+    }
+}
+@media (max-height: 667px){
+    #login{
+        height: 60vh !important;
+    }
+    .order > h3{
+        margin-bottom: 17.5px;
+    }
+}
+@media (max-height: 600px){
+    #login{
+        width: 28% !important;
+        height: 66vh !important;
+    }
+    #container1{
+        width: 7%;
+    }
+    #container1 > div{
+        margin: 50px 0px 10px;
+    }
+    .fa-user-alt{
+        font-size: 30px;
+    }
+    .fa-home , .fa-bags-shopping , .fa-cog{
+        font-size: 30px;
+        margin-bottom: 7px;
+    }
+    h5{
+        font-size: 15px;
+    }
+    #container2{
+        width: 93%;
+        padding: 20px;
+    }
+    #container2 > h2{
+        font-size: 30px;
+        margin-bottom: 60px;
+    }
+    .order{
+        height: 70vh;
+        width: 32%;
+        padding: 30px;
+    }
+    .order > h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    #left{
+        margin-top: 0px;
+    }
+    #generate{
+        height: 7vh;
+    }
+    .btn{
+        font-size: 13px;
+    }
+}
+@media (max-width: 360px){
+    #login{
+        width: 85% !important;
+        height: 63vh !important;
+    }
+    #sub-container2{
+        height: 81.9vh !important;
+    }
+}
+@media (max-width: 320px){
+    #login{
+        width: 94% !important;
+        height: 71vh !important;
+    }
+    #container1{
+        width: 20%;
+        height: 100vh;
+        position: fixed;
+    }
+    #container1 > div{
+        margin: 30px 0px 10px;
+    }
+    .fa-user-alt{
+        font-size: 25px;
+    }
+    #generate{
+        height: 25vh;
+    }
+    .fa-home , .fa-bags-shopping , .fa-cog{
+        font-size: 25px;
+        margin-bottom: 6px;
+    }
+    h5{
+        font-size: 13px;
+    }
+    #container2{
+        width: 80%;
+        left: 20%;
+    }
+    #container2 > h2{
+        font-size: 25px;
+    }
+    .order{
+        height: 48vh;
+        width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .order > h3{
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    .order > h1{
+        font-size: 130px;
+    }
+    .btn{
+        font-size: 10px;
+    }
+    #pass > h2{
+        font-size: 21px;
+    }
+    #small-div{
+        font-size: 13px;
+    }
+    #icon{
+        font-size: 13px;
+        margin-right: 3px;
+    }
+    #heading2{
+        font-size: 20px;
+    }
+    .sub-contain2 > h3{
+        font-size: 17px;
+    }
+    #mail_btn{
+        font-size: 15px;
+    }
+    #phone_btn{
+        font-size: 15px;
+    }
+    #delete{
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+    #sub-container2{
+        height: 75.7vh !important;
+    }
+}
+@media (max-width: 280px){
+    #login{
+        width: 95% !important;
+        height: 62vh !important;
+    }
+    .btn{
+        font-size: 9px;
+    }
+    #sub-container2{
+        height: 83.5vh !important;
+    }
+}

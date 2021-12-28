@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="./assets/images/title3.png">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+  <title>Al-Hadi Dairy</title>
+</head>
+
+<body id="main">
+  <div id="container1" class="">
+    <nav id="main-nav" class="navbar navbar-expand-xl navbar-light">
+      <a class="navbar-brand" href="Javascript:void(0)">Al-Hadi Dairy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#main">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#about-section">About us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#quality-section">Quality</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" id="contact" href="#container4">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a id="butn1" href="#container3">Order Now</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div id="container2">
+    <h1 id="heading1">IT'S LOVE AT FIRST TASTE!</h1>
+    <h4 id="heading2">The Best Tasting Milk You've Never Had.</h4>
+    <a id="butn2" href="#container3">TRY IT NOW</a>
+    <a href="#main" id="small-container" class="">
+      <div id="sub-container1">
+        <div id="sub-container2">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+      </div>
+    </a>
+  </div>
+  <div id="about-section">
+    <h1 id="heading5">About us</h1>
+    <p id="para4">It is our aim to provide you natural farm fresh milk and pure dairy products at your doorstep every morning and evening.Al Hadi Dairy has now become synonymous with quality and innovation with the vision to provide top quality milk which is free of antibiotic, breeding hormones and any other impurities.</p>
+  </div>
+  <div id="quality-section">
+    <img src="./assets/images/cloud.png" id="cloud" />
+    <h1 id="heading6">Quality of Our milk</h1>
+    <div id="quality1">
+      <img src="./assets/images/about-f1.png" id="about-img1" />
+      <img src="./assets/images/about-f2.png" id="about-img2" />
+      <img src="./assets/images/about-f3.png" id="about-img3" />
+      <img src="./assets/images/about-f4.png" id="about-img4" />
+    </div>
+  </div>
+  <div id="container3">
+    <h1 id="heading3">ORDER NOW</h1>
+    <div id="small-container2">
+      <div class="rules">
+        <img src="./assets/images/time.png" class="icon" />
+        <p class="para1">Order Time <br /> 11 AM - 8 PM</p>
+      </div>
+      <div class="rules">
+        <img src="./assets/images/delivery.png" class="icon" />
+        <p class="para1">Delivery Time <br /> 48 - 72 Hrs</p>
+      </div>
+      <div class="rules">
+        <img src="./assets/images/price tag.png" class="icon" />
+        <p class="para1">Price <br /> Rs 120 / Litre</p>
+      </div>
+      <div class="rules">
+        <img src="./assets/images/order.png" class="icon" />
+        <p class="para1">Minimum Order <br /> 1 Litre</p>
+      </div>
+    </div>
+    <div id="small-container3">
+      <!-- <form onsubmit="return check_field()"> -->
+        <div class="sub-div1">
+          <input type="text" autocomplete="off" class="field input1" id="username" placeholder="Name">
+          <input type="email" class="input1" id="email" placeholder="Email Address">
+        </div>
+        <div class="sub-div1">
+          <input type="tel" class="field input1" id="number" autocomplete="off" placeholder="03xxxxxxxxx">
+          <select name="volume" id="litre">
+            <option value="litres" selected>How many litres you want per delivery?</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div id="adres">
+          <input type="text" autocomplete="off" id="adres-field" class="input1" placeholder="Address">
+        </div>
+        <div id="days">
+          <select name="schedule" id="plan" onchange="d(this)">
+            <option value="plan">Plan your delivery schedule</option>
+            <option value="daily">Daily</option>
+            <option value="alternate">Alternate</option>
+            <option value="Select days" id="select_days">Select days</option>
+          </select>
+          <div id="selected_days">
+            <div>
+              <input type="checkbox" name="days" class="input2">
+              <label for="monday">Monday</label>
+            </div>
+            <div>
+              <input type="checkbox" name="days" class="input2">
+              <label for="Tuesday">Tuesday</label>
+            </div>
+            <div>
+              <input type="checkbox" name="days" class="input2">
+              <label for="Wednesday">Wednesday</label>
+            </div>
+            <div>
+              <input type="checkbox" name="days" class="input2">
+              <label for="Thursday">Thursday</label>
+            </div>
+            <div>
+              <input type="checkbox" name="days" class="input2">
+              <label for="Friday">Friday</label>
+            </div>
+            <div>
+              <input type="checkbox" name="days" class="input2">
+              <label for="saturday">Saturday</label>
+            </div>
+            <div>
+              <input type="checkbox" name="days" class="input2">
+              <label for="sunday">Sunday</label>
+            </div>
+          </div>
+        </div>
+        <div id="sub_btn">
+          <input type="submit" value="Submit" id="sub" onclick="submit()">
+        </div>
+      <!-- </form> -->
+    </div>
+    <p id="para2">*We currently deliver in limited areas only. *Free delivery for regular orders.</p>
+  </div>
+  <div id="container4">
+    <h1 id="heading4">Connect with us</h1>
+    <div id="small-container6">
+      <i class="fal fa-building"></i>
+      <p class="para3">Al-Hadi Dairy , Opposite Askari Bank , Soldier Bazar No 2 , Karachi</p>
+    </div>
+    <div id="small-container4">
+      <div>
+        <i class="fas fa-phone-alt"></i>
+        <a class="para3" href="tel:+92-3362-298975">0332-2361186</a>
+      </div>
+      <div>
+        <i class="fas fa-envelope"></i>
+        <a class="para3" href="mailto:Alhadidairy786110@gmail.com">Alhadidairy786110@gmail.com</a>
+      </div>
+    </div>
+    <div id="small-container5">
+      <a href="https://www.facebook.com/Al-Hadi-Dairy-1896009307279081/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://api.whatsapp.com/send?phone=923362298975&text=Yes,%20I%20Like%20Your%20Milk" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+<script src="./app.js"></script>
+
+</html>

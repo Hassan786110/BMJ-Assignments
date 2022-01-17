@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/png" href="./assets/images/notebook.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Note Book</title>
+</head>
+<body>
+    <div id="main-div">
+        <div id="container1">
+            <h1>Note Book</h1>
+            <div id="sub-div1">
+                <input type="text" id="tittle" placeholder="Enter Tittle">
+                <input type="text" id="txt" placeholder="Enter Your Text">
+            </div>
+            <div id="sub-div2">
+                <button id="add" onclick="add()">Add</button>
+                <button onclick="del_all()">Delete All</button>
+            </div>
+            <div id="container2"></div>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>

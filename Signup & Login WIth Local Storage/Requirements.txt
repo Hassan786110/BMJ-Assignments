@@ -1,0 +1,8 @@
+SignUp & LogIn With Local Storage
+
+1. 5 input fields for signup 
+2. when signup is successfull a popup is displayed
+3. when login is done successfully a dashboard is opened showing all the details of the user and logout button also.
+4. All the form must be Responsive
+5. Validation must be on all of the input fields
+6. show password functionality on password

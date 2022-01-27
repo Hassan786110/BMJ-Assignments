@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div id="main-div">
+        <div id="container">
+            <h1>Sign Up</h1>
+            <form onsubmit="return false">
+                <div id="sub-div">
+                    <input type="text" id="first" placeholder="First Name" required autocomplete="off" autofocus>
+                    <input type="text" id="last" placeholder="Last Name" required autocomplete="off">
+                </div>
+                <input type="text" id="email" placeholder="Email Address" required autocomplete="off">
+                <input type="tel" id="phone" placeholder="Phone Number" required autocomplete="off">
+                <input type="password" id="password" placeholder="Password" required>
+                <div id="sub-div2">
+                    <input type="checkbox" onclick="showpass()"><span>Show Password</span>
+                </div>
+                <button onclick="signup()">Create Account</button>
+                <p>Already have an account? <a href="./login.html">Sign in</a></p>
+            </form>
+        </div>
+        <div id="popup">
+            <h2 id="heading"></h2>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>

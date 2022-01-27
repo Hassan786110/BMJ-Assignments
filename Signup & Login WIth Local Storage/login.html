@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Log In</title>
+</head>
+<body>
+    <div id="main-div2">
+        <div id="container2">
+            <h1>Log In</h1>
+            <form onsubmit="return false">
+                <input type="email" id="email" placeholder="Email Address" autofocus autocomplete="off">
+                <input type="password" id="password" placeholder="Password">
+                <div id="sub-div3">
+                    <input type="checkbox" onclick="showpass()"> <span>Show Password</span>
+                </div>
+                <button onclick="login()">Log In</button>
+                <p>Need an account? <a href="./index.html">Sign Up</a></p>
+            </form>
+        </div>
+        <div id="popup">
+            <h2 id="heading"></h2>
+        </div>
+    </div>
+</body>
+<script src="./app.js"></script>
+</html>

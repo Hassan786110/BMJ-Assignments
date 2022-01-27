@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#main-div{
+    width: 100%;
+    height: 100vh;
+    background-color: #9633FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+#container{
+    width: 30%;
+    height: 80vh;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 2px 20px 10px #711FDB;
+    padding: 20px;
+}
+#container > h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#sub-div{
+    margin: 30px 0px 20px;
+    display: flex;
+    justify-content: center;
+    width: 88%;
+}
+#sub-div > input{
+    width: 100%;
+    font-size: 17px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    box-shadow: 0px 0px 3.5px 1px #711FDB;
+}
+#last{
+    margin-left: 10px;
+}
+#container > form > input{
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: 90%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 3.5px 1px #711FDB;
+}
+input:focus{
+    border: 1.8px solid #9633FF !important;
+}
+#sub-div2{
+    display: flex;
+    align-items: center;
+}
+#sub-div2 > input{
+    cursor: pointer;
+}
+#sub-div2 > span{
+    font-size: 14px;
+    color: gray;
+    margin-left: 5px;
+}
+#container > form > button{
+    padding: 10px 30px;
+    background-color: #9633FF;
+    color: white;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 10px;
+    font-size: 15px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#container > form > p{
+    font-size: 14px;
+    color: gray;
+    margin-top: 20px;
+}
+#container > form > p > a{
+    color: #711FDB;
+    text-decoration: none;
+}
+#container > form > p > a:hover{
+    text-decoration: underline;
+}
+#popup{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-color: #030303c4;
+    color: white;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#popup > h2{
+    background-color: #711FDB;
+    padding: 80px 50px;
+    border-radius: 20px;
+}
+@media only screen and (max-width: 1280px){
+    #container{
+        width: 30%;
+        height: 64.5vh;
+    }
+}
+@media only screen and (max-width: 1024px){
+    #container{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 912px){
+    #container{
+        width: 50%;
+        height: 38vh;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 820px){
+    #container{
+        width: 50%;
+        height: 44vh;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 768px){
+    #container{
+        height: 50.5vh;
+    }
+}
+@media only screen and (max-width: 576px){
+    #container{
+        width: 98%;
+        height: 81vh;
+        padding: 20px;
+    }
+}
+@media only screen and (max-width: 540px){
+    #container{
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 414px){
+    #container{
+        width: 98%;
+        height: 58vh;
+    }
+}
+@media only screen and (max-width: 412px){
+    #container{
+        width: 98%;
+        height: 56vh;
+    }
+}
+@media only screen and (max-width: 393px){
+    #container{
+        width: 98%;
+        height: 61vh;
+    }
+}
+@media only screen and (max-width: 390px){
+    #container{
+        width: 98%;
+        height: 61.5vh;
+    }
+}
+@media only screen and (max-width: 375px){
+    #container{
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 360px){
+    #container{
+        width: 98%;
+    }
+}
+@media only screen and (max-height: 740px){
+    #container{
+        height: 70vh;
+    }
+}
+@media only screen and (max-height: 720px){
+    #container{
+        height: 72vh;
+    }
+}
+@media only screen and (max-height: 667px){
+    #container{
+        height: 78vh;
+    }
+}
+@media only screen and (max-height: 640px){
+    #container{
+        height: 80vh;
+    }
+}
+@media only screen and (max-height: 600px){
+    #container{
+        height: 86.5vh;
+    }
+}
+@media only screen and (max-width: 317px){
+    #container{
+        width: 98%;
+        padding: 20px 0px;
+        height: 78vh;
+    }
+}
+@media only screen and (max-width: 280px){
+    #container{
+        width: 98%;
+        height: 80vh;
+        padding: 20px 0px;
+    }
+}

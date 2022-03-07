@@ -1,0 +1,216 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main-div{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #03001F;
+}
+.user-icon, .home-icon, .todo-icon{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-decoration: none;
+}
+.home-icon, .todo-icon{
+    margin-top: 70px;
+}
+span{
+    font-size: 14px;
+    color: white;
+    margin-top: 5px;
+}
+.icons{
+    color: #FF1262;
+    font-size: 35px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #F2F6F9;
+    padding: 40px 0 0 60px;
+}
+.container > h1{
+    color: #02194E;
+    margin-bottom: 30px;
+}
+.container > li{
+    color: #02194E;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.container > input{
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid #02194E;
+}
+.logout_btn{
+    padding: 13px 26px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #FF1262;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.sub-container{
+    width: 315px;
+    height: 400px;
+    border-radius: 10px;
+    background-color: #02194E;
+    margin-bottom: 30px;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+.sub-container > li{
+    margin-bottom: 10px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    border: 2px solid #F2F6F9;
+    border-radius: 10px;
+    word-wrap: break-word;
+    align-items: center;
+}
+.sub-container > li > input{
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid #FF1262;
+    width: 100%;
+    margin-right: 5px;
+}
+.sub-container > li > button{
+    background-color: #FF1262;
+    padding: 4px 8px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.sub-container > li > div{
+    display: flex;
+    margin-left: 5px;
+    width: 93.5px;
+}
+.sub-container > li > div > button{
+    background-color: #FF1262;
+    padding: 3px 6px;
+    font-size: 14px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.del_btn{
+    margin-left: 5px;
+}
+.send_btn{
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    background-color: #02194E;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.sub-container2{
+    width: 315px;
+    height: 500px;
+    overflow-y: auto;
+    border-radius: 10px;
+    background-color: #02194E;
+    font-size: 18px;
+    padding: 10px;
+}
+.sub-container2 > li{
+    width: 100%;
+    padding: 3px 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #F2F6F9;
+    color: white;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+.main-box{
+    font-family: sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-color: royalblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-div > button{
+    margin-left: 10px;
+}
+.container2{
+    padding: 20px;
+    max-width: 320px;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.container2 > h1{
+    text-align: center;
+    margin: 10px 0 30px 0;
+}
+.container2 > input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 7px;
+    outline: none;
+    border: 2px solid royalblue;
+}
+.container2 > button{
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 16px;
+    padding: 13px 26px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background-color: royalblue;
+    border-radius: 7px;
+    color: white;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 15px;
+}
